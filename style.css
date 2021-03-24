@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://source.unsplash.com/1600x900/?nature,water);
+    background-repeat: no-repeat;
+}
+
+.weather-card {
+    padding: 55px;
+    color: black;
+    background-color:lightgray;
+    opacity: .6;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 300px;
+    
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.search {
+    display: flex;
+    justify-content: space-evenly;
+}
+.search-inp {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid sienna;
+}
+.desc {
+    text-transform: capitalize;
+}
