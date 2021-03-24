@@ -27,10 +27,17 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
+.search-btn {
+    border: transparent;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 20px;
+}
 .search-inp {
     background: transparent;
     border: none;
     border-bottom: 1px solid sienna;
+    font-size: 20px;
 }
 .desc {
     text-transform: capitalize;
